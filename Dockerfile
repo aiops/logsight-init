@@ -10,7 +10,7 @@ ENV CFLAGS="-I/usr/include"
 WORKDIR /code
 COPY ./main.py .
 # install dependencies
-RUN pip install logsight-sdk-py==0.1.21
+RUN pip install logsight-sdk-py
 #
 ## copy code
 #COPY ../logsight-verification-action .
